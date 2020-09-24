@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MaterialApp(
     home: Home(),
     debugShowCheckedModeBanner: false,
@@ -13,7 +13,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-
   int selecionado = 0;
 
   @override
@@ -24,7 +23,7 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           title: Text("ABAS com Flutter: ${selecionado.toString()}"),
           bottom: TabBar(
-            onTap: (int qualSelecionado){
+            onTap: (int qualSelecionado) {
               setState(() {
                 selecionado = qualSelecionado;
               });
@@ -99,6 +98,7 @@ class Clientes extends StatefulWidget {
   @override
   _ClientesState createState() => _ClientesState();
 }
+
 class _ClientesState extends State<Clientes> {
   @override
   Widget build(BuildContext context) {
@@ -122,4 +122,3 @@ class _ClientesState extends State<Clientes> {
     );
   }
 }
-
