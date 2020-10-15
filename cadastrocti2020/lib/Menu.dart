@@ -1,5 +1,5 @@
-import 'package:cadastrocti2020/clientes.dart';
 import 'package:flutter/material.dart';
+import 'clientes.dart';
 
 class Menu extends StatefulWidget {
   @override
@@ -16,9 +16,10 @@ class _MenuState extends State<Menu> {
       body: SingleChildScrollView(
         padding: EdgeInsets.all(10),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             RaisedButton(
-              color: Colors.blueAccent,
+              color: Colors.lightGreenAccent,
               child: Text("Clientes"),
               onPressed: () {
                 Navigator.push(

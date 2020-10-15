@@ -8,6 +8,15 @@ class Clientes extends StatefulWidget {
 class _ClientesState extends State<Clientes> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Cadastro de Clientes"),
+      ),
+      body: Column(
+        children: <Widget>[
+
+        ],
+      ),
+    );
   }
 }

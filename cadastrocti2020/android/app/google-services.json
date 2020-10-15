@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "784386903812",
+    "firebase_url": "https://michaelcadastrofirebasecti.firebaseio.com",
+    "project_id": "michaelcadastrofirebasecti",
+    "storage_bucket": "michaelcadastrofirebasecti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784386903812:android:1b4fd8b5f994799b654a51",
+        "android_client_info": {
+          "package_name": "michael.cadastrocti2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784386903812-s4naa57fo4hiqcloe69dldr4ud3g0ttm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "michael.cadastrocti2020",
+            "certificate_hash": "c045723983445b87e670112ba947fae12d241aaf"
+          }
+        },
+        {
+          "client_id": "784386903812-44km4ls1967baet7gavuiphvbv2h6mas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYWszvdfhd5BctXH_AwyTA5NOaibi1CcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784386903812-44km4ls1967baet7gavuiphvbv2h6mas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
