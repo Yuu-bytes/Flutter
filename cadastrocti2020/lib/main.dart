@@ -1,3 +1,5 @@
+import 'package:cadastrocti2020/esqueci.dart';
+import 'package:cadastrocti2020/registrar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -83,6 +85,31 @@ class _HomeState extends State<Home> {
                   ),
                 ],
               ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                FlatButton(
+                  textColor: Colors.blue,
+                  child: Text("Esqueci Minha Senha"),
+                  onPressed: (){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Esqueci()),
+                    );
+                  },
+                ),
+                FlatButton(
+                  textColor: Colors.blue,
+                  child: Text("Registrar"),
+                  onPressed: (){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Registrar()),
+                    );
+                  },
+                ),
+              ],
             ),
             RaisedButton(
               color: Colors.lightBlueAccent,
